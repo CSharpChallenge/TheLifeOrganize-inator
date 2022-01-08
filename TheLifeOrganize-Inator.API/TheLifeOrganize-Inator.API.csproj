@@ -16,4 +16,24 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Areas\Agenda\" />
+    <Folder Include="Areas\PasswordManager\" />
+    <Folder Include="Areas\PersonalFinances\" />
+    <Folder Include="Areas\ToDoLists\" />
+    <Folder Include="Controllers\Agenda\" />
+    <Folder Include="Controllers\ToDoLists\" />
+    <Folder Include="Controllers\PersonalFinances\" />
+    <Folder Include="Controllers\PasswordManager\" />
+    <Folder Include="Models\Agenda\" />
+    <Folder Include="Models\ToDoLists\" />
+    <Folder Include="Models\PersonalFinances\" />
+    <Folder Include="Models\PasswordManager\" />
+    <Folder Include="Views\Agenda\" />
+    <Folder Include="Views\UserOverviewPage\" />
+    <Folder Include="Views\ToDoLists\" />
+    <Folder Include="Views\PersonalFinances\" />
+    <Folder Include="Views\PasswordManager\" />
+  </ItemGroup>
+
 </Project>
