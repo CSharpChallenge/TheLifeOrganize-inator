@@ -39,6 +39,27 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "Agenda",
+    areaName: "agenda",
+    pattern: "Agenda/{controller=AgendaHome}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "PwdManager",
+    areaName: "pwdmanager",
+    pattern: "PasswordManager/{controller=PasswordManagerHome}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "PersonalFinances",
+    areaName: "personalfinances",
+    pattern: "PersonalFinances/{controller=PersonalFinancesHome}/{action=Index}/{id?}");
+
+app.MapAreaControllerRoute(
+    name: "ToDoLists",
+    areaName: "todolists",
+    pattern: "To-do/{controller=ToDoHome}/{action=Index}/{id?}");
+
 app.MapRazorPages();
 
 app.Run();

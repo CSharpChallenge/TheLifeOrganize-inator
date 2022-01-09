@@ -18,8 +18,6 @@
 
   <ItemGroup>
     <Folder Include="Areas\Agenda\Models\" />
-    <Folder Include="Areas\Agenda\Controllers\" />
-    <Folder Include="Areas\Agenda\Views\" />
     <Folder Include="Areas\PasswordManager\Models\" />
     <Folder Include="Areas\PasswordManager\Controllers\" />
     <Folder Include="Areas\PasswordManager\Views\" />
